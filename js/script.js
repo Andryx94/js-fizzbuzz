@@ -5,17 +5,17 @@ var lista = document.getElementById('lista')
 for (var i=1; i<=100; i++) {
   //se divisibile sia per 5 che per 3
   if (i % 15 == 0) {
-    lista.innerHTML += '<li>' + "FizzBuzz";
+    lista.innerHTML += '<li class="fizzbuzz">' + "FizzBuzz";
   }
 
   //se divisibile per 3
   else if (i % 3 == 0) {
-    lista.innerHTML += '<li>' + "Fizz";
+    lista.innerHTML += '<li class="fizz">' + "Fizz";
   }
 
   //se divisibile per 5
   else if ( i % 5 == 0) {
-    lista.innerHTML += '<li>' + "Buzz";
+    lista.innerHTML += '<li class="buzz">' + "Buzz";
   }
 
   else {

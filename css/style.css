@@ -11,3 +11,16 @@ li {
   list-style-type: none;
 }
 /* fine generali */
+
+
+.fizzbuzz {
+  color: darkorange;
+}
+
+.fizz {
+  color: red;
+}
+
+.buzz {
+  color: yellowgreen;
+}
